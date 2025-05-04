@@ -95,8 +95,11 @@ local Buy = Instance.new("TextButton")
 local UICorner_32 = Instance.new("UICorner")
 local Toggle = Instance.new("ImageButton")
 local UICorner_33 = Instance.new("UICorner")
+local UIScale_1 = Instance.new("UIScale")
 
 -- Properties
+UIScale_1.Parent = Toggle
+
 
 Script.Name = "Script"
 Script.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
