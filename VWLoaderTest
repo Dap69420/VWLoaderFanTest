@@ -4,103 +4,103 @@ local UICorner = Instance.new("UICorner")
 local B2 = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
 local Title = Instance.new("TextLabel")
-local PrivateO = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
 local Private = Instance.new("Frame")
-local UICorner_4 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
 local Title_2 = Instance.new("TextLabel")
 local Permanent = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local ImageLabel = Instance.new("ImageLabel")
 local Title_3 = Instance.new("TextLabel")
 local Current = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local Title_4 = Instance.new("TextLabel")
 local Desc = Instance.new("TextLabel")
 local Boost = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local Title_5 = Instance.new("TextLabel")
 local CC = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local ImageLabel_3 = Instance.new("ImageLabel")
 local Title_6 = Instance.new("TextLabel")
 local Pay = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local ImageLabel_4 = Instance.new("ImageLabel")
 local Title_7 = Instance.new("TextLabel")
 local Description = Instance.new("TextLabel")
 local Buy = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local Back = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local UIScale = Instance.new("UIScale")
 local Main = Instance.new("ScrollingFrame")
 local Rise = Instance.new("Frame")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local RiseC = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local RiseE = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local TitleRise = Instance.new("TextLabel")
 local Desc_2 = Instance.new("TextLabel")
 local Rewrite = Instance.new("Frame")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local ReC = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local ReE = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local TitleRewrite = Instance.new("TextLabel")
 local Desc_3 = Instance.new("TextLabel")
 local Packet = Instance.new("Frame")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local PacketC = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 local PacketE = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local TitlePacket = Instance.new("TextLabel")
 local Desc_4 = Instance.new("TextLabel")
 local Old = Instance.new("Frame")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local OldE = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local OldC = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local TitleOld = Instance.new("TextLabel")
 local Desc_5 = Instance.new("TextLabel")
 local UIGridLayout = Instance.new("UIGridLayout")
 local MetalESP = Instance.new("Frame")
-local UICorner_24 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local Title_8 = Instance.new("TextLabel")
 local Desc_6 = Instance.new("TextLabel")
 local Execute = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local InfiniteYield = Instance.new("Frame")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local Execute_2 = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
 local TitleRewrite_2 = Instance.new("TextLabel")
 local Desc_7 = Instance.new("TextLabel")
 local Dex = Instance.new("Frame")
-local UICorner_28 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
 local TitleRise_2 = Instance.new("TextLabel")
 local Desc_8 = Instance.new("TextLabel")
 local Execute_3 = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
 local Soon = Instance.new("Frame")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
 local Soon_2 = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
 local TitlePacket_2 = Instance.new("TextLabel")
 local Desc_9 = Instance.new("TextLabel")
 local CE = Instance.new("Frame")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 local CE_2 = Instance.new("TextLabel")
 local Toggle = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local PrivateO = Instance.new("TextButton")
 local UICorner_33 = Instance.new("UICorner")
-local Toggle_2 = Instance.new("ImageButton")
+local TextButton = Instance.new("TextButton")
+local ImageLabel_5 = Instance.new("ImageLabel")
 local UICorner_34 = Instance.new("UICorner")
-local UIScale_2 = Instance.new("UIScale")
 
 -- Properties
 
@@ -115,7 +115,6 @@ Background.BorderColor3 = Color3.new(0, 0, 0)
 Background.BorderSizePixel = 0
 Background.Position = UDim2.new(0.202187255, 0, 0.109793566, 0)
 Background.Size = UDim2.new(0.591271102, 0, 0.707423568, 0)
-Background.Visible = false
 
 UICorner.Parent = Background
 
@@ -144,23 +143,6 @@ Title.TextScaled = true
 Title.TextSize = 30
 Title.TextWrapped = true
 
-PrivateO.Name = "PrivateO"
-PrivateO.Parent = Background
-PrivateO.BackgroundColor3 = Color3.new(0.615686, 0, 1)
-PrivateO.BorderColor3 = Color3.new(0, 0, 0)
-PrivateO.BorderSizePixel = 0
-PrivateO.Position = UDim2.new(0.391000003, 0, 0.922968626, 0)
-PrivateO.Size = UDim2.new(0.210255191, 0, 0.0601052828, 0)
-PrivateO.ZIndex = 2
-PrivateO.Font = Enum.Font.FredokaOne
-PrivateO.Text = "Voidware Private"
-PrivateO.TextColor3 = Color3.new(1, 1, 1)
-PrivateO.TextScaled = true
-PrivateO.TextSize = 20
-PrivateO.TextWrapped = true
-
-UICorner_3.Parent = PrivateO
-
 Private.Name = "Private"
 Private.Parent = Background
 Private.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
@@ -171,7 +153,7 @@ Private.Size = UDim2.new(0.978260875, 0, 0.96825397, 0)
 Private.Visible = false
 Private.ZIndex = 2
 
-UICorner_4.Parent = Private
+UICorner_3.Parent = Private
 
 Title_2.Name = "Title"
 Title_2.Parent = Private
@@ -202,7 +184,7 @@ Permanent.TextScaled = true
 Permanent.TextSize = 20
 Permanent.TextWrapped = true
 
-UICorner_5.Parent = Permanent
+UICorner_4.Parent = Permanent
 
 ImageLabel.Parent = Permanent
 ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -236,7 +218,7 @@ Current.BorderSizePixel = 0
 Current.Position = UDim2.new(0.583620071, 0, 0.0961860195, 0)
 Current.Size = UDim2.new(0.404674232, 0, 0.682424843, 0)
 
-UICorner_6.Parent = Current
+UICorner_5.Parent = Current
 
 Title_4.Name = "Title"
 Title_4.Parent = Current
@@ -282,7 +264,7 @@ Boost.TextScaled = true
 Boost.TextSize = 20
 Boost.TextWrapped = true
 
-UICorner_7.Parent = Boost
+UICorner_6.Parent = Boost
 
 ImageLabel_2.Parent = Boost
 ImageLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -322,7 +304,7 @@ CC.TextScaled = true
 CC.TextSize = 20
 CC.TextWrapped = true
 
-UICorner_8.Parent = CC
+UICorner_7.Parent = CC
 
 ImageLabel_3.Parent = CC
 ImageLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -362,7 +344,7 @@ Pay.TextScaled = true
 Pay.TextSize = 20
 Pay.TextWrapped = true
 
-UICorner_9.Parent = Pay
+UICorner_8.Parent = Pay
 
 ImageLabel_4.Parent = Pay
 ImageLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -419,7 +401,7 @@ Buy.TextScaled = true
 Buy.TextSize = 20
 Buy.TextWrapped = true
 
-UICorner_10.Parent = Buy
+UICorner_9.Parent = Buy
 
 Back.Name = "Back"
 Back.Parent = Private
@@ -437,7 +419,7 @@ Back.TextScaled = true
 Back.TextSize = 20
 Back.TextWrapped = true
 
-UICorner_11.Parent = Back
+UICorner_10.Parent = Back
 
 UIScale.Parent = Background
 
@@ -460,7 +442,7 @@ Rise.BorderSizePixel = 0
 Rise.Position = UDim2.new(0.130137771, 0, 0.478064388, 0)
 Rise.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_12.Parent = Rise
+UICorner_11.Parent = Rise
 
 RiseC.Name = "RiseC"
 RiseC.Parent = Rise
@@ -476,7 +458,7 @@ RiseC.TextScaled = true
 RiseC.TextSize = 20
 RiseC.TextWrapped = true
 
-UICorner_13.Parent = RiseC
+UICorner_12.Parent = RiseC
 
 RiseE.Name = "RiseE"
 RiseE.Parent = Rise
@@ -492,7 +474,7 @@ RiseE.TextScaled = true
 RiseE.TextSize = 20
 RiseE.TextWrapped = true
 
-UICorner_14.Parent = RiseE
+UICorner_13.Parent = RiseE
 
 TitleRise.Name = "TitleRise"
 TitleRise.Parent = Rise
@@ -532,7 +514,7 @@ Rewrite.BorderSizePixel = 0
 Rewrite.Position = UDim2.new(0.550623596, 0, 0.128429323, 0)
 Rewrite.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_15.Parent = Rewrite
+UICorner_14.Parent = Rewrite
 
 ReC.Name = "ReC"
 ReC.Parent = Rewrite
@@ -548,7 +530,7 @@ ReC.TextScaled = true
 ReC.TextSize = 20
 ReC.TextWrapped = true
 
-UICorner_16.Parent = ReC
+UICorner_15.Parent = ReC
 
 ReE.Name = "ReE"
 ReE.Parent = Rewrite
@@ -564,7 +546,7 @@ ReE.TextScaled = true
 ReE.TextSize = 20
 ReE.TextWrapped = true
 
-UICorner_17.Parent = ReE
+UICorner_16.Parent = ReE
 
 TitleRewrite.Name = "TitleRewrite"
 TitleRewrite.Parent = Rewrite
@@ -604,7 +586,7 @@ Packet.BorderSizePixel = 0
 Packet.Position = UDim2.new(0.550623596, 0, 0.477950186, 0)
 Packet.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_18.Parent = Packet
+UICorner_17.Parent = Packet
 
 PacketC.Name = "PacketC"
 PacketC.Parent = Packet
@@ -620,7 +602,7 @@ PacketC.TextScaled = true
 PacketC.TextSize = 20
 PacketC.TextWrapped = true
 
-UICorner_19.Parent = PacketC
+UICorner_18.Parent = PacketC
 
 PacketE.Name = "PacketE"
 PacketE.Parent = Packet
@@ -636,7 +618,7 @@ PacketE.TextScaled = true
 PacketE.TextSize = 20
 PacketE.TextWrapped = true
 
-UICorner_20.Parent = PacketE
+UICorner_19.Parent = PacketE
 
 TitlePacket.Name = "TitlePacket"
 TitlePacket.Parent = Packet
@@ -676,7 +658,7 @@ Old.BorderSizePixel = 0
 Old.Position = UDim2.new(0.130137771, 0, 0.128429323, 0)
 Old.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_21.Parent = Old
+UICorner_20.Parent = Old
 
 OldE.Name = "OldE"
 OldE.Parent = Old
@@ -692,7 +674,7 @@ OldE.TextScaled = true
 OldE.TextSize = 20
 OldE.TextWrapped = true
 
-UICorner_22.Parent = OldE
+UICorner_21.Parent = OldE
 
 OldC.Name = "OldC"
 OldC.Parent = Old
@@ -708,7 +690,7 @@ OldC.TextScaled = true
 OldC.TextSize = 20
 OldC.TextWrapped = true
 
-UICorner_23.Parent = OldC
+UICorner_22.Parent = OldC
 
 TitleOld.Name = "TitleOld"
 TitleOld.Parent = Old
@@ -753,7 +735,7 @@ MetalESP.BorderSizePixel = 0
 MetalESP.Position = UDim2.new(0.130137771, 0, 0.128429323, 0)
 MetalESP.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_24.Parent = MetalESP
+UICorner_23.Parent = MetalESP
 
 Title_8.Name = "Title"
 Title_8.Parent = MetalESP
@@ -799,7 +781,7 @@ Execute.TextScaled = true
 Execute.TextSize = 20
 Execute.TextWrapped = true
 
-UICorner_25.Parent = Execute
+UICorner_24.Parent = Execute
 
 InfiniteYield.Name = "Infinite Yield"
 InfiniteYield.Parent = Main
@@ -809,7 +791,7 @@ InfiniteYield.BorderSizePixel = 0
 InfiniteYield.Position = UDim2.new(0.550623596, 0, 0.128429323, 0)
 InfiniteYield.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_26.Parent = InfiniteYield
+UICorner_25.Parent = InfiniteYield
 
 Execute_2.Name = "Execute"
 Execute_2.Parent = InfiniteYield
@@ -825,7 +807,7 @@ Execute_2.TextScaled = true
 Execute_2.TextSize = 20
 Execute_2.TextWrapped = true
 
-UICorner_27.Parent = Execute_2
+UICorner_26.Parent = Execute_2
 
 TitleRewrite_2.Name = "TitleRewrite"
 TitleRewrite_2.Parent = InfiniteYield
@@ -865,7 +847,7 @@ Dex.BorderSizePixel = 0
 Dex.Position = UDim2.new(0.130137771, 0, 0.478064388, 0)
 Dex.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_28.Parent = Dex
+UICorner_27.Parent = Dex
 
 TitleRise_2.Name = "TitleRise"
 TitleRise_2.Parent = Dex
@@ -911,7 +893,7 @@ Execute_3.TextScaled = true
 Execute_3.TextSize = 20
 Execute_3.TextWrapped = true
 
-UICorner_29.Parent = Execute_3
+UICorner_28.Parent = Execute_3
 
 Soon.Name = "Soon"
 Soon.Parent = Main
@@ -921,7 +903,7 @@ Soon.BorderSizePixel = 0
 Soon.Position = UDim2.new(0.550623596, 0, 0.477950186, 0)
 Soon.Size = UDim2.new(0.312820524, 0, 0.300546438, 0)
 
-UICorner_30.Parent = Soon
+UICorner_29.Parent = Soon
 
 Soon_2.Name = "Soon"
 Soon_2.Parent = Soon
@@ -937,7 +919,7 @@ Soon_2.TextScaled = true
 Soon_2.TextSize = 20
 Soon_2.TextWrapped = true
 
-UICorner_31.Parent = Soon_2
+UICorner_30.Parent = Soon_2
 
 TitlePacket_2.Name = "TitlePacket"
 TitlePacket_2.Parent = Soon
@@ -977,7 +959,7 @@ CE.BorderSizePixel = 0
 CE.Position = UDim2.new(0.720052958, 0, 0.0202694144, 0)
 CE.Size = UDim2.new(0, 102, 0, 18)
 
-UICorner_32.Parent = CE
+UICorner_31.Parent = CE
 
 CE_2.Name = "CE"
 CE_2.Parent = CE
@@ -1009,38 +991,50 @@ Toggle.TextScaled = true
 Toggle.TextSize = 20
 Toggle.TextWrapped = true
 
-UICorner_33.Parent = Toggle
+UICorner_32.Parent = Toggle
 
-Toggle_2.Name = "Toggle"
-Toggle_2.Parent = Script
-Toggle_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Toggle_2.BorderColor3 = Color3.new(0, 0, 0)
-Toggle_2.BorderSizePixel = 0
-Toggle_2.Position = UDim2.new(0.478409141, 0, -0.000642199011, 0)
-Toggle_2.Size = UDim2.new(0.0411269888, 0, 0.0888807327, 0)
-Toggle_2.Image = "http://www.roblox.com/asset/?id=113903023468514"
+PrivateO.Name = "PrivateO"
+PrivateO.Parent = Background
+PrivateO.BackgroundColor3 = Color3.new(0.615686, 0, 1)
+PrivateO.BorderColor3 = Color3.new(0, 0, 0)
+PrivateO.BorderSizePixel = 0
+PrivateO.Position = UDim2.new(0.391000003, 0, 0.922968626, 0)
+PrivateO.Size = UDim2.new(0.210255191, 0, 0.0601052828, 0)
+PrivateO.ZIndex = 2
+PrivateO.Font = Enum.Font.FredokaOne
+PrivateO.Text = "Voidware Private"
+PrivateO.TextColor3 = Color3.new(1, 1, 1)
+PrivateO.TextScaled = true
+PrivateO.TextSize = 20
+PrivateO.TextWrapped = true
 
-UICorner_34.Parent = Toggle_2
+UICorner_33.Parent = PrivateO
 
-UIScale_2.Parent = Toggle_2
+TextButton.Parent = Script
+TextButton.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton.BackgroundTransparency = 1
+TextButton.BorderColor3 = Color3.new(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.477999985, 0, -0.00100000005, 0)
+TextButton.Size = UDim2.new(0.0410000011, 0, 0.0890000015, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = " "
+TextButton.TextColor3 = Color3.new(0, 0, 0)
+TextButton.TextSize = 14
+
+ImageLabel_5.Parent = TextButton
+ImageLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel_5.BorderColor3 = Color3.new(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0, 0, 9.83068063e-08, 0)
+ImageLabel_5.Size = UDim2.new(0, 34, 0, 38)
+ImageLabel_5.Image = "http://www.roblox.com/asset/?id=113903023468514"
+
+UICorner_34.Parent = ImageLabel_5
 
 -- Scripts
 
-local function SSRUYFO_fake_script() -- PrivateO.LocalScript 
-	local script = Instance.new('LocalScript', PrivateO)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Private.Visible == true then
-			script.Parent.Parent.Private.Visible = false
-			script.Parent.Parent.Main.Visible = true
-		elseif script.Parent.Parent.Private.Visible == false then
-			script.Parent.Parent.Private.Visible = true
-			script.Parent.Parent.Main.Visible = false
-		end
-	end)
-end
-coroutine.wrap(SSRUYFO_fake_script)()
-local function OZXQLF_fake_script() -- Permanent.LocalScript 
+local function TSBIX_fake_script() -- Permanent.LocalScript 
 	local script = Instance.new('LocalScript', Permanent)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1052,8 +1046,8 @@ local function OZXQLF_fake_script() -- Permanent.LocalScript
 		desc.Text = "Your Voidware Private will stay forever for a amount of 1k Robux. To purchase gamepass, go to discord.gg/voidware and open ticket to claim!"
 	end)
 end
-coroutine.wrap(OZXQLF_fake_script)()
-local function TAQQ_fake_script() -- Boost.LocalScript 
+coroutine.wrap(TSBIX_fake_script)()
+local function RXGWACG_fake_script() -- Boost.LocalScript 
 	local script = Instance.new('LocalScript', Boost)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1065,8 +1059,8 @@ local function TAQQ_fake_script() -- Boost.LocalScript
 		desc.Text = "Your Voidware Private is temporary. It will stay with you till you're boosting there server. Unboosting the server will make you lose your Private. discord.gg/voidware"
 	end)
 end
-coroutine.wrap(TAQQ_fake_script)()
-local function GOFU_fake_script() -- CC.LocalScript 
+coroutine.wrap(RXGWACG_fake_script)()
+local function WAYDE_fake_script() -- CC.LocalScript 
 	local script = Instance.new('LocalScript', CC)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1078,8 +1072,8 @@ local function GOFU_fake_script() -- CC.LocalScript
 		desc.Text = "Your Voidware Private is temporary. It'll stay with you if you promote Voidware on YT. 500 views on VW videos required to apply."
 	end)
 end
-coroutine.wrap(GOFU_fake_script)()
-local function MYLYYG_fake_script() -- Pay.LocalScript 
+coroutine.wrap(WAYDE_fake_script)()
+local function SDGNYQ_fake_script() -- Pay.LocalScript 
 	local script = Instance.new('LocalScript', Pay)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1091,8 +1085,8 @@ local function MYLYYG_fake_script() -- Pay.LocalScript
 		desc.Text = "Your Voidware Private is Permanent. It'll stay with you forever if you pay using Paypal!"
 	end)
 end
-coroutine.wrap(MYLYYG_fake_script)()
-local function NCFX_fake_script() -- Buy.LocalScript 
+coroutine.wrap(SDGNYQ_fake_script)()
+local function ZCVVL_fake_script() -- Buy.LocalScript 
 	local script = Instance.new('LocalScript', Buy)
 
 	
@@ -1103,8 +1097,8 @@ local function NCFX_fake_script() -- Buy.LocalScript
 		MarketplaceService:PromptGamePassPurchase(game.Players.LocalPlayer, GamepassID)
 	end)
 end
-coroutine.wrap(NCFX_fake_script)()
-local function ASHI_fake_script() -- Back.LocalScript 
+coroutine.wrap(ZCVVL_fake_script)()
+local function OOQW_fake_script() -- Back.LocalScript 
 	local script = Instance.new('LocalScript', Back)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1112,8 +1106,8 @@ local function ASHI_fake_script() -- Back.LocalScript
 		script.Parent.Parent.Parent.Main.Visible = true
 	end)
 end
-coroutine.wrap(ASHI_fake_script)()
-local function UDOPWYT_fake_script() -- RiseE.LocalScript 
+coroutine.wrap(OOQW_fake_script)()
+local function BCYLJ_fake_script() -- RiseE.LocalScript 
 	local script = Instance.new('LocalScript', RiseE)
 
 	
@@ -1127,16 +1121,16 @@ local function UDOPWYT_fake_script() -- RiseE.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UDOPWYT_fake_script)()
-local function QIYW_fake_script() -- ReC.LocalScript 
+coroutine.wrap(BCYLJ_fake_script)()
+local function TIYGND_fake_script() -- ReC.LocalScript 
 	local script = Instance.new('LocalScript', ReC)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VWExtra/main/installer.lua", true))()
 	end)
 end
-coroutine.wrap(QIYW_fake_script)()
-local function GKMOWWS_fake_script() -- ReE.LocalScript 
+coroutine.wrap(TIYGND_fake_script)()
+local function HMLLA_fake_script() -- ReE.LocalScript 
 	local script = Instance.new('LocalScript', ReE)
 
 	local ce = script.Parent.Parent.Parent.Parent.Parent.CEV
@@ -1150,8 +1144,8 @@ local function GKMOWWS_fake_script() -- ReE.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GKMOWWS_fake_script)()
-local function ZKMDD_fake_script() -- PacketE.LocalScript 
+coroutine.wrap(HMLLA_fake_script)()
+local function JZXU_fake_script() -- PacketE.LocalScript 
 	local script = Instance.new('LocalScript', PacketE)
 
 	local ce = script.Parent.Parent.Parent.Parent.Parent.CEV
@@ -1164,8 +1158,8 @@ local function ZKMDD_fake_script() -- PacketE.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZKMDD_fake_script)()
-local function JKULYNS_fake_script() -- OldE.LocalScript 
+coroutine.wrap(JZXU_fake_script)()
+local function OQVO_fake_script() -- OldE.LocalScript 
 	local script = Instance.new('LocalScript', OldE)
 
 	local ce = script.Parent.Parent.Parent.Parent.Parent.CEV
@@ -1178,40 +1172,40 @@ local function JKULYNS_fake_script() -- OldE.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JKULYNS_fake_script)()
-local function KXUYI_fake_script() -- Main.LocalScript 
+coroutine.wrap(OQVO_fake_script)()
+local function MZOIMUZ_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	game:GetService("RunService").RenderStepped:Connect(function()
 		script.Parent.CanvasSize = UDim2.new(0,0,0,script.Parent.UIGridLayout.AbsoluteContentSize.Y)
 	end)
 end
-coroutine.wrap(KXUYI_fake_script)()
-local function FFVSW_fake_script() -- Execute.LocalScript 
+coroutine.wrap(MZOIMUZ_fake_script)()
+local function HRGGZQ_fake_script() -- Execute.LocalScript 
 	local script = Instance.new('LocalScript', Execute)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua', true))()
 	end)
 end
-coroutine.wrap(FFVSW_fake_script)()
-local function APMOMWJ_fake_script() -- Execute_2.LocalScript 
+coroutine.wrap(HRGGZQ_fake_script)()
+local function ZWIBNTC_fake_script() -- Execute_2.LocalScript 
 	local script = Instance.new('LocalScript', Execute_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(APMOMWJ_fake_script)()
-local function MWMHRAP_fake_script() -- Execute_3.LocalScript 
+coroutine.wrap(ZWIBNTC_fake_script)()
+local function VOOVPPT_fake_script() -- Execute_3.LocalScript 
 	local script = Instance.new('LocalScript', Execute_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
 	end)
 end
-coroutine.wrap(MWMHRAP_fake_script)()
-local function PTKJW_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(VOOVPPT_fake_script)()
+local function QCGFFH_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	local ce = script.Parent.Parent.Parent.Parent.CEV
@@ -1226,16 +1220,31 @@ local function PTKJW_fake_script() -- Toggle.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PTKJW_fake_script)()
-local function VOLPTCI_fake_script() -- Toggle_2.LocalScript 
-	local script = Instance.new('LocalScript', Toggle_2)
+coroutine.wrap(QCGFFH_fake_script)()
+local function UIJQPTJ_fake_script() -- PrivateO.LocalScript 
+	local script = Instance.new('LocalScript', PrivateO)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Background.Visible==false then
-			script.Parent.Parent.Background.Visible=true
-		elseif script.Parent.Parent.Background.Visible==true then
-			script.Parent.Parent.Background.Visible=false
+		if script.Parent.Parent.Private.Visible == true then
+			script.Parent.Parent.Private.Visible = false
+			script.Parent.Parent.Main.Visible = true
+		elseif script.Parent.Parent.Private.Visible == false then
+			script.Parent.Parent.Private.Visible = true
+			script.Parent.Parent.Main.Visible = false
 		end
 	end)
 end
-coroutine.wrap(VOLPTCI_fake_script)()
+coroutine.wrap(UIJQPTJ_fake_script)()
+local function UWPI_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local UI = script.Parent.Parent.Background
+	script.Parent.MouseButton1Click:Connect(function()
+		if UI.Visible == false then
+			UI.Visible = true
+		elseif UI.Visible == true then
+			UI.Visible = false
+		end
+	end)
+end
+coroutine.wrap(UWPI_fake_script)()
