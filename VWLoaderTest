@@ -93,8 +93,13 @@ local Soon_2 = Instance.new("TextButton")
 local UICorner_31 = Instance.new("UICorner")
 local TitlePacket_2 = Instance.new("TextLabel")
 local Desc_9 = Instance.new("TextLabel")
-local Toggle = Instance.new("ImageButton")
+local CE = Instance.new("Frame")
 local UICorner_32 = Instance.new("UICorner")
+local CE_2 = Instance.new("TextLabel")
+local Toggle = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local Toggle_2 = Instance.new("ImageButton")
+local UICorner_34 = Instance.new("UICorner")
 local UIScale_2 = Instance.new("UIScale")
 
 -- Properties
@@ -964,22 +969,64 @@ Desc_9.TextScaled = true
 Desc_9.TextSize = 13
 Desc_9.TextWrapped = true
 
+CE.Name = "CE"
+CE.Parent = Background
+CE.BackgroundColor3 = Color3.new(0.14902, 0.14902, 0.14902)
+CE.BorderColor3 = Color3.new(0, 0, 0)
+CE.BorderSizePixel = 0
+CE.Position = UDim2.new(0.720052958, 0, 0.0202694144, 0)
+CE.Size = UDim2.new(0, 102, 0, 18)
+
+UICorner_32.Parent = CE
+
+CE_2.Name = "CE"
+CE_2.Parent = CE
+CE_2.BackgroundColor3 = Color3.new(1, 1, 1)
+CE_2.BackgroundTransparency = 1
+CE_2.BorderColor3 = Color3.new(0, 0, 0)
+CE_2.BorderSizePixel = 0
+CE_2.Position = UDim2.new(0.229987353, 0, 1.05513847, 0)
+CE_2.Size = UDim2.new(0.765120566, 0, -1.05513871, 0)
+CE_2.Font = Enum.Font.FredokaOne
+CE_2.Text = "Cheat Engine Mode"
+CE_2.TextColor3 = Color3.new(1, 1, 1)
+CE_2.TextScaled = true
+CE_2.TextSize = 30
+CE_2.TextWrapped = true
+
 Toggle.Name = "Toggle"
-Toggle.Parent = Script
-Toggle.BackgroundColor3 = Color3.new(1, 1, 1)
+Toggle.Parent = CE
+Toggle.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
 Toggle.BorderColor3 = Color3.new(0, 0, 0)
 Toggle.BorderSizePixel = 0
-Toggle.Position = UDim2.new(0.478409141, 0, -0.000642199011, 0)
-Toggle.Size = UDim2.new(0.0411269888, 0, 0.0888807327, 0)
-Toggle.Image = "http://www.roblox.com/asset/?id=113903023468514"
+Toggle.Position = UDim2.new(-0.00817452185, 0, -0.055555556, 0)
+Toggle.Size = UDim2.new(0.178056777, 0, 0.999999583, 0)
+Toggle.ZIndex = 2
+Toggle.Font = Enum.Font.FredokaOne
+Toggle.Text = " "
+Toggle.TextColor3 = Color3.new(1, 1, 1)
+Toggle.TextScaled = true
+Toggle.TextSize = 20
+Toggle.TextWrapped = true
 
-UICorner_32.Parent = Toggle
+UICorner_33.Parent = Toggle
 
-UIScale_2.Parent = Toggle
+Toggle_2.Name = "Toggle"
+Toggle_2.Parent = Script
+Toggle_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Toggle_2.BorderColor3 = Color3.new(0, 0, 0)
+Toggle_2.BorderSizePixel = 0
+Toggle_2.Position = UDim2.new(0.478409141, 0, -0.000642199011, 0)
+Toggle_2.Size = UDim2.new(0.0411269888, 0, 0.0888807327, 0)
+Toggle_2.Image = "http://www.roblox.com/asset/?id=113903023468514"
+
+UICorner_34.Parent = Toggle_2
+
+UIScale_2.Parent = Toggle_2
 
 -- Scripts
 
-local function JLLI_fake_script() -- PrivateO.LocalScript 
+local function SSRUYFO_fake_script() -- PrivateO.LocalScript 
 	local script = Instance.new('LocalScript', PrivateO)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -992,8 +1039,8 @@ local function JLLI_fake_script() -- PrivateO.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JLLI_fake_script)()
-local function DAUFSV_fake_script() -- Permanent.LocalScript 
+coroutine.wrap(SSRUYFO_fake_script)()
+local function OZXQLF_fake_script() -- Permanent.LocalScript 
 	local script = Instance.new('LocalScript', Permanent)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1005,8 +1052,8 @@ local function DAUFSV_fake_script() -- Permanent.LocalScript
 		desc.Text = "Your Voidware Private will stay forever for a amount of 1k Robux. To purchase gamepass, go to discord.gg/voidware and open ticket to claim!"
 	end)
 end
-coroutine.wrap(DAUFSV_fake_script)()
-local function MWKWQPB_fake_script() -- Boost.LocalScript 
+coroutine.wrap(OZXQLF_fake_script)()
+local function TAQQ_fake_script() -- Boost.LocalScript 
 	local script = Instance.new('LocalScript', Boost)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1018,8 +1065,8 @@ local function MWKWQPB_fake_script() -- Boost.LocalScript
 		desc.Text = "Your Voidware Private is temporary. It will stay with you till you're boosting there server. Unboosting the server will make you lose your Private. discord.gg/voidware"
 	end)
 end
-coroutine.wrap(MWKWQPB_fake_script)()
-local function OUSSVNJ_fake_script() -- CC.LocalScript 
+coroutine.wrap(TAQQ_fake_script)()
+local function GOFU_fake_script() -- CC.LocalScript 
 	local script = Instance.new('LocalScript', CC)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1031,8 +1078,8 @@ local function OUSSVNJ_fake_script() -- CC.LocalScript
 		desc.Text = "Your Voidware Private is temporary. It'll stay with you if you promote Voidware on YT. 500 views on VW videos required to apply."
 	end)
 end
-coroutine.wrap(OUSSVNJ_fake_script)()
-local function OYQTL_fake_script() -- Pay.LocalScript 
+coroutine.wrap(GOFU_fake_script)()
+local function MYLYYG_fake_script() -- Pay.LocalScript 
 	local script = Instance.new('LocalScript', Pay)
 
 	local title = script.Parent.Parent.Current.Title
@@ -1044,8 +1091,8 @@ local function OYQTL_fake_script() -- Pay.LocalScript
 		desc.Text = "Your Voidware Private is Permanent. It'll stay with you forever if you pay using Paypal!"
 	end)
 end
-coroutine.wrap(OYQTL_fake_script)()
-local function BSYI_fake_script() -- Buy.LocalScript 
+coroutine.wrap(MYLYYG_fake_script)()
+local function NCFX_fake_script() -- Buy.LocalScript 
 	local script = Instance.new('LocalScript', Buy)
 
 	
@@ -1056,8 +1103,8 @@ local function BSYI_fake_script() -- Buy.LocalScript
 		MarketplaceService:PromptGamePassPurchase(game.Players.LocalPlayer, GamepassID)
 	end)
 end
-coroutine.wrap(BSYI_fake_script)()
-local function VNNK_fake_script() -- Back.LocalScript 
+coroutine.wrap(NCFX_fake_script)()
+local function ASHI_fake_script() -- Back.LocalScript 
 	local script = Instance.new('LocalScript', Back)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1065,81 +1112,123 @@ local function VNNK_fake_script() -- Back.LocalScript
 		script.Parent.Parent.Parent.Main.Visible = true
 	end)
 end
-coroutine.wrap(VNNK_fake_script)()
-local function SXWVW_fake_script() -- RiseE.LocalScript 
+coroutine.wrap(ASHI_fake_script)()
+local function UDOPWYT_fake_script() -- RiseE.LocalScript 
 	local script = Instance.new('LocalScript', RiseE)
 
+	
+	local ce = script.Parent.Parent.Parent.Parent.Parent.CEV
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRise/refs/heads/main/NewMainScript.lua', true))()
+		if ce == true then
+			shared.CheatEngineMode = true
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRise/refs/heads/main/NewMainScript.lua', true))()
+		elseif ce==false then
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRise/refs/heads/main/NewMainScript.lua', true))()
+		end
 	end)
 end
-coroutine.wrap(SXWVW_fake_script)()
-local function BGMKQTO_fake_script() -- ReC.LocalScript 
+coroutine.wrap(UDOPWYT_fake_script)()
+local function QIYW_fake_script() -- ReC.LocalScript 
 	local script = Instance.new('LocalScript', ReC)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VWExtra/main/installer.lua", true))()
 	end)
 end
-coroutine.wrap(BGMKQTO_fake_script)()
-local function DHNLE_fake_script() -- ReE.LocalScript 
+coroutine.wrap(QIYW_fake_script)()
+local function GKMOWWS_fake_script() -- ReE.LocalScript 
 	local script = Instance.new('LocalScript', ReE)
 
+	local ce = script.Parent.Parent.Parent.Parent.Parent.CEV
+	
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua', true))()
+		if ce == true then
+			shared.CheatEngineMode = true
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua', true))()
+		elseif ce==false then
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua', true))()
+		end
 	end)
 end
-coroutine.wrap(DHNLE_fake_script)()
-local function MAKFK_fake_script() -- PacketE.LocalScript 
+coroutine.wrap(GKMOWWS_fake_script)()
+local function ZKMDD_fake_script() -- PacketE.LocalScript 
 	local script = Instance.new('LocalScript', PacketE)
 
+	local ce = script.Parent.Parent.Parent.Parent.Parent.CEV
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWPacket/main/NewMainScript.lua', true))()
+		if ce == true then
+			shared.CheatEngineMode = true
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWPacket/main/NewMainScript.lua', true))()
+		elseif ce==false then
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWPacket/main/NewMainScript.lua', true))()
+		end
 	end)
 end
-coroutine.wrap(MAKFK_fake_script)()
-local function OBFOC_fake_script() -- OldE.LocalScript 
+coroutine.wrap(ZKMDD_fake_script)()
+local function JKULYNS_fake_script() -- OldE.LocalScript 
 	local script = Instance.new('LocalScript', OldE)
 
+	local ce = script.Parent.Parent.Parent.Parent.Parent.CEV
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua', true))()
+		if ce == true then
+			shared.CheatEngineMode = true
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua', true))()
+		elseif ce==false then
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/vapevoidware/main/NewMainScript.lua', true))()
+		end
 	end)
 end
-coroutine.wrap(OBFOC_fake_script)()
-local function PZIFN_fake_script() -- Main.LocalScript 
+coroutine.wrap(JKULYNS_fake_script)()
+local function KXUYI_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	game:GetService("RunService").RenderStepped:Connect(function()
 		script.Parent.CanvasSize = UDim2.new(0,0,0,script.Parent.UIGridLayout.AbsoluteContentSize.Y)
 	end)
 end
-coroutine.wrap(PZIFN_fake_script)()
-local function BIZG_fake_script() -- Execute.LocalScript 
+coroutine.wrap(KXUYI_fake_script)()
+local function FFVSW_fake_script() -- Execute.LocalScript 
 	local script = Instance.new('LocalScript', Execute)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua', true))()
 	end)
 end
-coroutine.wrap(BIZG_fake_script)()
-local function JDTWC_fake_script() -- Execute_2.LocalScript 
+coroutine.wrap(FFVSW_fake_script)()
+local function APMOMWJ_fake_script() -- Execute_2.LocalScript 
 	local script = Instance.new('LocalScript', Execute_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(JDTWC_fake_script)()
-local function UPMY_fake_script() -- Execute_3.LocalScript 
+coroutine.wrap(APMOMWJ_fake_script)()
+local function MWMHRAP_fake_script() -- Execute_3.LocalScript 
 	local script = Instance.new('LocalScript', Execute_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
 	end)
 end
-coroutine.wrap(UPMY_fake_script)()
-local function RAJYA_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(MWMHRAP_fake_script)()
+local function PTKJW_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
+
+	local ce = script.Parent.Parent.Parent.Parent.CEV
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if ce.Value == false then
+			ce.Value = true
+			script.Parent.BackgroundColor3 = Color3.fromRGB(38, 255, 0)
+		elseif ce.Value == true then
+			ce.Value = false
+			script.Parent.BackgroundColor3 = Color3.fromRGB(17,17,17)
+		end
+	end)
+end
+coroutine.wrap(PTKJW_fake_script)()
+local function VOLPTCI_fake_script() -- Toggle_2.LocalScript 
+	local script = Instance.new('LocalScript', Toggle_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.Background.Visible==false then
@@ -1149,4 +1238,4 @@ local function RAJYA_fake_script() -- Toggle.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RAJYA_fake_script)()
+coroutine.wrap(VOLPTCI_fake_script)()
