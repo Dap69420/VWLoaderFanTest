@@ -101,7 +101,7 @@ local UICorner_33 = Instance.new("UICorner")
 local TextButton = Instance.new("TextButton")
 local ImageLabel_5 = Instance.new("ImageLabel")
 local UICorner_34 = Instance.new("UICorner")
-
+local CEV = Instance.new("BoolValue")
 -- Properties
 
 Script.Name = "Script"
@@ -1111,7 +1111,7 @@ local function BCYLJ_fake_script() -- RiseE.LocalScript
 	local script = Instance.new('LocalScript', RiseE)
 
 	
-	local ce = script.Parent.Parent.Parent.Parent.Parent.CEV
+	local ce = CEV
 	script.Parent.MouseButton1Click:Connect(function()
 		if ce == true then
 			shared.CheatEngineMode = true
@@ -1133,7 +1133,7 @@ coroutine.wrap(TIYGND_fake_script)()
 local function HMLLA_fake_script() -- ReE.LocalScript 
 	local script = Instance.new('LocalScript', ReE)
 
-	local ce = script.Parent.Parent.Parent.Parent.Parent.CEV
+	local ce = CEV
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		if ce == true then
@@ -1148,7 +1148,7 @@ coroutine.wrap(HMLLA_fake_script)()
 local function JZXU_fake_script() -- PacketE.LocalScript 
 	local script = Instance.new('LocalScript', PacketE)
 
-	local ce = script.Parent.Parent.Parent.Parent.Parent.CEV
+	local ce = CEV
 	script.Parent.MouseButton1Click:Connect(function()
 		if ce == true then
 			shared.CheatEngineMode = true
@@ -1162,7 +1162,7 @@ coroutine.wrap(JZXU_fake_script)()
 local function OQVO_fake_script() -- OldE.LocalScript 
 	local script = Instance.new('LocalScript', OldE)
 
-	local ce = script.Parent.Parent.Parent.Parent.Parent.CEV
+	local ce = CEV
 	script.Parent.MouseButton1Click:Connect(function()
 		if ce == true then
 			shared.CheatEngineMode = true
@@ -1208,7 +1208,7 @@ coroutine.wrap(VOOVPPT_fake_script)()
 local function QCGFFH_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
-	local ce = script.Parent.Parent.Parent.Parent.CEV
+	local ce = CEV
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		if ce.Value == false then
