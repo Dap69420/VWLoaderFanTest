@@ -109,6 +109,8 @@ Script.Name = "Script"
 Script.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Script.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
+ce.Parent = Script
+
 Background.Name = "Background"
 Background.Parent = Script
 Background.BackgroundColor3 = Color3.new(0, 0, 0)
